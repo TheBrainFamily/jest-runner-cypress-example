@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "cypress": "^1.4.1"
   },
   "devDependencies": {
-    "jest": "^22.1.4"
+    "jest": "^22.1.4",
+    "jest-runner-cypress": "0.0.1"
   }
 }
