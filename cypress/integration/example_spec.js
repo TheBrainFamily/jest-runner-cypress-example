@@ -6,4 +6,8 @@ describe('Broken Kitchen Sink', function () {
     cy.visit('http://google.com')
     cy.title().should('include', 'Kitchen Sink abc')
   })
+  it('but other one passes', function () {
+    cy.visit('http://google.com')
+    cy.title().should('include', 'google')
+  })
 })

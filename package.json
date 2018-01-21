@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "jest": "^22.1.4",
-    "jest-runner-cypress": "0.0.1"
+    "jest-runner-cypress": "0.0.2"
   }
 }
